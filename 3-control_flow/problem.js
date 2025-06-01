@@ -23,10 +23,32 @@
     }
 
     // 3. emperature Checker: Print “Cold”, “Moderate”, or “Hot” based on given temperature.
+    let temperature = 17;
+    if(temperature < 15){
+        console.log("Cold");
+    } else if(temperature <= 30){
+        console.log("Moderate");
+    }else{
+        console.log("Hot");
+    }
 
     // 4.User Login System: If username and password match, print "Login successful".
+    let userName = "Selin Maharjan";
+    let password = "123";
+
+    if(userName === "Selin Maharjan" && password === "123"){
+        console.log("User login successful");
+    }else{
+        console.log("Invalid Password");
+    }
 
     // 5. Even or Odd Number Checker
+    let num = 5;
+    if(num%2 === 0){
+        console.log(`${num} is even number.`);
+    }else{
+        console.log(`${num} is odd number.`);
+    }
 
     // 6. Grade Calculator: Based on marks (90+ = A, 80–89 = B, etc.)
 

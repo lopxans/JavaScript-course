@@ -137,13 +137,21 @@
     // let a = 10; // Global
    function outer(){
     let count = 0; // Local
-    // a = 10;
     return function inner(){
         count++;
         console.log(`Count: ${count}`);
         // let x = 3; // block
         }
     }
+    let counter = outer(); // `counter` is assigned the inner() function with a closure over `count`
+    counter(); // output: Count: 1
+    counter(); // output: Count: 2
 
-    let counter = outer();
-    counter();
+/* 6. ✅ IIFE (Immediately Invoked Function Expresssion)  */
+(function() {
+    console.log("IIFE");
+})();
+
+/* 6. ✅ Currying:- Currying is the process of transforming a function with multiple arguments into a sequence of functions, each taking one argument.  */
+const addNums = a => b => a + b;
+console.log(addNums(5)(3));

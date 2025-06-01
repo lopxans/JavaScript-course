@@ -1,0 +1,70 @@
+1. What is API?
+- Api stand for Application Pragramming Interface.
+- It's a way for different software or apps to talk to each other and share information or services.
+
+- Think of it as a translator or messenger.
+    Exaple:
+    It's like a waiter in a resaurant.
+    You (app) tell the waiter (API) what food you want, and the waiter goes to the kitchen(server), brins it back, and serves you.
+
+2. Why do we need APIs?
+- Communication: Apps talk to each other through APIs.
+- Save Time: Instead of building everything from scratch, use existing services.
+- Example: Google Maps API lets apps like Uber show maps without coding maps themselves.
+
+3. Real-Life examples of APIs
+- Weather Apps: Use APIs to fetch real-time weather updates.
+- Payment Gateways: Use APIs for transactions (like Razorpay, PayPal).
+- Social Media: login with Facebook/Google? That's an API at work.
+
+4. How does an API work?
+- Request: Your app sends a message to the API (e.g./ "Give me weacther for Kathmandu").
+- Processing: The API talks to the server and gets the data.
+- Response: The API sends the data back to your app.
+
+5. Types of APIs
+- Web APIs: Access through the internet (REST APIs).
+- Library APIs: For coding libraries like NumPy or Pandas.
+- Operating System APIs: Control hardware feature like camera or microphone.
+
+6. REST APIs in Web APIs
+- REST APIs (Representational State Transfer):
+- A popular and widely-used architectural style for Web APIs.
+- Operates over HTTP with starndard methods like GET, POST, PUT, DELETE.
+- Return data typically in JSON or XML format.
+
+    Example in JavaScript:
+    fetch('https://api.example.com/weather?city=Kathmandu')
+        .then(response => response.json)
+        .then(data => console.log(data));
+
+7. Other Types of Web APIs
+*   Allthough REST APIs are dominant, Web APIs aslo include:
+
+- GraphQl APIs: 
+    * Query-based APIs allowing clients to specify exactly what data they need.
+    * More frexible than REST APIs.
+
+- SOAP APIs: 
+    * Older protocol that uses XML for communication.
+    * Known for string security and reliablity but is more complex.
+
+- Browser APIs: 
+    * Built into web browsers, allowing interaction with the browser's functionality.
+    * Examplse: DOM API(manipulate web page content) & Geolocation API(get user's location).
+
+- Streaming APIs: 
+    * Used for real-time data delivery (e.g., WebSockets).
+
+8. Benefits of APIs
+- Scalable: Share only the necessay data.
+- Secure: Access without exposing sensitive info.
+- Reusable: Use the same API for different apps.
+
+
+Summary:
+- APIs are the bidge between apps and servers.
+- They make apps smarter and more connected.
+- You interact with APIs daily, even without knowing it!
+
+
