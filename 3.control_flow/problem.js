@@ -101,6 +101,3 @@
     // 29. JSON Parse Catch: Use try...catch to handle invalid JSON.
 
     // 30. ATM Withdrawal Simulator: Throw error if balance is insufficient.
-
-
-

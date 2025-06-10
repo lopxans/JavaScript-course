@@ -1,7 +1,7 @@
 /* What is a Variable?
-A variable is a container for storing data. Think of it like a box where you can store a value and give that box a name. 
-Declaration variabe in JavaScript in three types: var, let and const.
-Each type of variable has specific rules for scope, re-declaration, adn reassignment. */
+    A variable is a container for storing data. Think of it like a box where you can store a value and give that box a name. 
+    Declaration variabe in JavaScript in three types: var, let and const.
+    Each type of variable has specific rules for scope, re-declaration, adn reassignment. */
 
 /* Variable Naming Rules
 ✅ Can include letters, numbers, _, and $

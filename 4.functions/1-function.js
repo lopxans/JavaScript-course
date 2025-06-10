@@ -45,11 +45,6 @@
     greet3("Sulav"); // output: Hello, Sulav
 
 // 3. ✅ Function expressions: A function expression is when you create a function and assign it to a variable.
-    // syntax:
-    const myFunction = function(){
-        // code block
-    }
-    myFunction();  // call 
 
     // Example 1: Discount Calculator
     const calculateDiscount = function(price, discountPercent){
@@ -72,13 +67,6 @@
     addItem("Mouse");
 
 // 4. ✅ Arrow function:- An arrow function is a shorter syntax for writing function expressions
-    // syntax 1: for one line code 
-    const add = num => num * num
-
-    // syntax 2: for multiline code 
-    const functionName2 = (parameters) => {
-        // code
-    }
 
     // Example 1: Calculate Final Price
     const getFinalPrice = (price, tax) => price + (price * tax);
